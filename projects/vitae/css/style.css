@@ -1,0 +1,78 @@
+/* font-family: "Pontano Sans", sans-serif;
+font-family: "Arsenal", sans-serif;
+ */
+
+body {
+    font-family: "Arsenal", sans-serif;
+    line-height: 1.5;
+
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+.contact {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+header,
+h1 h2,
+h3 {
+    font-family: "Pontano Sans", sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+header {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 3em 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    padding: 1.5em 0;
+}
+
+/* 
+
+
+
+
+h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+
+
+h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.date {
+    color: rgb(102, 162, 162);
+    font-size: .85em;
+    display: block;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+
+
+header {
+    text-align: center;
+    background-color: beige;
+}
+
+.objective {
+    margin: 4em 0;
+} */
