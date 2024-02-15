@@ -1,78 +1,62 @@
-/* font-family: "Pontano Sans", sans-serif;
-font-family: "Arsenal", sans-serif;
- */
+/*
+  font-family: "DM Serif Display", serif;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
+
+dark #292A28
+light #FFFBF7
+red #8D5B4C
+blue #225560
+*/
 
 body {
-    font-family: "Arsenal", sans-serif;
-    line-height: 1.5;
-
-}
-
-a {
-    color: crimson;
-    text-decoration: none;
-}
-
-.contact {
-    letter-spacing: 1.5px;
-    font-weight: 400;
-}
-
-header,
-h1 h2,
-h3 {
-    font-family: "Pontano Sans", sans-serif;
+    margin: 2em auto;
+    width: 75%;
+    background-color: #fffbf7;
+    font-family: "Encode Sans Semi Condensed", sans-serif;
+    font-size: 16px;
 }
 
 h1 {
-    font-size: 3em;
+    font-family: "DM Serif Display", serif;
+    font-size: 4em;
 }
 
-
-header {
-    background-color: antiquewhite;
-    text-align: center;
-    padding: 3em 0;
+a {
+    color: #225560;
+    text-decoration: none;
 }
-
-h2 {
-    text-transform: uppercase;
-    font-size: 1.25em;
-    padding: 1.5em 0;
-}
-
-/* 
-
-
-
-
-h2 {
-    font-size: 1.2em;
-    text-transform: uppercase;
-}
-
-
-
-h4 {
-    text-transform: uppercase;
-    font-size: 1em;
-}
-
-.date {
-    color: rgb(102, 162, 162);
-    font-size: .85em;
-    display: block;
-    line-height: 1.5;
-    font-style: italic;
-}
-
-
 
 header {
     text-align: center;
-    background-color: beige;
+    margin: 2em 0 4em 0;
+}
+
+.contact {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 .objective {
+    background-color: #292A28;
+    color: #fffbf7;
     margin: 4em 0;
-} */
+    padding: 2em;
+}
+
+.date {
+    font-weight: 100;
+    color: #6F6E67;
+    font-style: italic;
+    font-family: "PT Serif", serif;
+}
+
+.resume-item {
+    margin: 3em 0;
+}
+
+h4,
+i {
+    display: inline;
+}
