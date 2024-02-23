@@ -1,0 +1,121 @@
+/* 
+font-family: "Syne", sans-serif;
+font-family: "Overpass", sans-serif;
+
+
+white #FFFBFA
+blue #9AD2CB
+pink #FAC9B8
+black #161413
+
+
+ */
+
+body {
+    font-family: "Overpass", sans-serif;
+    background-color: #FFFBFA;
+    color: #161413;
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    font-family: "Syne", sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #9AD2CB;
+    text-decoration: none;
+}
+
+
+.services h2,
+header {
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: .85em;
+    padding: 3%;
+}
+
+.btn-light {
+    width: 100%;
+    background-color: #FAC9B8;
+    text-transform: uppercase;
+    font-size: .85em;
+    letter-spacing: 2;
+}
+
+.btn-light:hover {
+    background-color: #9AD2CB;
+}
+
+.dark-block {
+    background-color: #161413;
+    color: #FFFBFA;
+}
+
+header {
+    padding: 5% 0 0 0;
+}
+
+footer,
+section {
+    padding: 10% 0;
+}
+
+.services img {
+    border-radius: 50%;
+}
+
+.services h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: #FAC9B8;
+}
+
+footer a {
+    color: #161413;
+}
+
+footer .btn-light {
+    background-color: #FFFBFA;
+}
+
+a:hover {
+    color: #161413;
+}
+
+.dark-block .row,
+.dark-block h3,
+.services .row,
+.services .row h3,
+.services ul,
+.address {
+    margin: 5% 0 0 0;
+}
+
+img {
+    margin: 5% 0;
+}
