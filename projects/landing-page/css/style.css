@@ -1,16 +1,11 @@
 /* 
 font-family: "Syne", sans-serif;
 font-family: "Overpass", sans-serif;
-
-
 white #FFFBFA
 blue #9AD2CB
 pink #FAC9B8
 black #161413
-
-
  */
-
 body {
     font-family: "Overpass", sans-serif;
     background-color: #FFFBFA;
@@ -44,7 +39,6 @@ a {
     color: #9AD2CB;
     text-decoration: none;
 }
-
 
 .services h2,
 header {
@@ -128,7 +122,6 @@ img {
     text-align: right;
 }
 
-
 @media (max-width:950px) {
     body {
         font-size: 14px;
@@ -138,7 +131,6 @@ img {
     h1 {
         font-size: 2em;
     }
-
 
     h3 {
         text-align: center;
@@ -152,8 +144,6 @@ img {
     .welcome {
         visibility: hidden;
     }
-
-
 }
 
 @media (min-width:950px) {
