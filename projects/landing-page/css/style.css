@@ -15,7 +15,7 @@ body {
     font-family: "Overpass", sans-serif;
     background-color: #FFFBFA;
     color: #161413;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h1,
@@ -25,7 +25,7 @@ h2 {
 
 h1 {
     font-weight: 800;
-    font-size: 1.8em;
+    font-size: 4em;
 }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1px;
@@ -99,6 +99,10 @@ footer a {
     color: #161413;
 }
 
+header .btn-light {
+    background-color: #9AD2CB;
+}
+
 footer .btn-light {
     background-color: #FFFBFA;
 }
@@ -118,4 +122,42 @@ a:hover {
 
 img {
     margin: 5% 0;
+}
+
+.address {
+    text-align: right;
+}
+
+
+@media (max-width:950px) {
+    body {
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+
+    h3 {
+        text-align: center;
+    }
+
+    .address {
+        text-align: center;
+    }
+
+    .desktop,
+    .welcome {
+        visibility: hidden;
+    }
+
+
+}
+
+@media (min-width:950px) {
+    .mobile {
+        visibility: hidden;
+    }
 }
