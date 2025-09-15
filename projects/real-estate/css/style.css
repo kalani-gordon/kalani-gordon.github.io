@@ -1,3 +1,72 @@
 body {
-    font-size: .9em;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+p,
+ul {
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    font-family: "Anek Telugu", sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 1.25em;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+    color: darkgray;
+}
+
+main,
+footer {
+    margin: 25px;
+}
+
+#pending {
+    background-color: #EB3510;
+    color: #fff;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: .85em;
+}
+
+.details {
+    background-color: #E8E6E3;
+    padding: 25px;
+    font-size: .85em;
+}
+
+.change-up {
+    color: #1E8A4C;
+    font-weight: 500;
+    padding: 0 0 0 15px;
+}
+
+.history p {
+    line-height: .5;
+}
+
+a {
+    color: #EB3510;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #000;
 }
