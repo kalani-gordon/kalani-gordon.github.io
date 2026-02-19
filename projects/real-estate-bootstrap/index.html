@@ -14,29 +14,43 @@
         href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
         rel="stylesheet">
     <!-- // -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <!-- // -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <em class="coming-soon">Coming soon on March 4</em>
+    <header class="container-fluid">
+        <em>Coming soon on March 4</em>
         <h1>3424 Toone St<br>Baltimore, MD 21224</h1>
         <p><strong>$1,499,000</strong></p>
         <p>5 bd • 4.5 ba • 4,575 sq ft</p>
-        <img src="img/toone-exterior.jpg"
-            alt="Aerial view of a city street at dusk with brick row houses, parked cars, glowing streetlights, and a pink-purple sunset sky—capturing the charm of Baltimore homes for sale in a dense urban neighborhood.">
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5">
+                <img src="img/toone-exterior.jpg" class="img-fluid"
+                    alt="Aerial view of a city street at dusk with brick row houses, parked cars, glowing streetlights, and a pink-purple sunset sky—capturing the charm of Baltimore homes for sale in a dense urban neighborhood.">
+            </div>
+            <div class="col-lg-3">
+                <img src="img/toone-exterior-02.webp" alt="Exterior" class="img-fluid">
+                <img src="img/toone-interior-01.webp" alt="Interior" class="img-fluid">
+            </div>
+            <div class="col-lg-3">
+                <img src="img/toone-interior-02.webp" alt="Interior" class="img-fluid">
+                <img src="img/toone-interior-03.webp" alt="Interior" class="img-fluid">
+            </div>
+        </div>
+
     </header>
-    <main>
-        <section>
-            <h2>Highlights</h2>
-            <ul>
-                <li>4,500+ square feet in Canton/Brewers Hill with 5 bedrooms and 4.5 bathrooms.</li>
-                <li>Elevator access and three-car garage with EV hookup.</li>
-                <li>Three rooftop decks with harbor and downtown views.</li>
-                <li>Ultra-premium Wolf + Jenn Air appliances and quartzite countertops.</li>
-                <li>Master suite features heated floors, oversized closet, and third-floor living area.</li>
-            </ul>
-        </section>
+    <main class="container">
         <section>
             <h2>About this home</h2>
             <p><strong>Best of Baltimore Top 5 Finalist for New Home Designs (2023)</strong> — Welcome to <a
@@ -74,19 +88,31 @@
                 PER YEAR — unheard of at this price!</p>
             <p><em>Come take a look at 3424 Toone St before it’s too late!</em></p>
         </section>
-        <section class="details">
-            <h2>Key details</h2>
-            <ul>
-                <li><b>Bedrooms:</b> 5</li>
-                <li><b>Bathrooms:</b> 4.5</li>
-                <li><b>Square Feet:</b> 4,575</li>
-                <li><b>Neighborhood:</b> Canton</li>
-                <li><b>Property Type: Townhome</b></li>
-                <li><b>Year built:</b> 1893</li>
-                <li><b>Parking:</b> 3-car garage</li>
-                <li><b>Lot size:</b> 1,510</li>
-                <li><b>Pricing/sq. ft.:</b> $328</li>
-            </ul>
+        <section class="row justify-content-center">
+            <div class="col-lg-4">
+                <h2>Key details</h2>
+                <ul>
+                    <li><b>Bedrooms:</b> 5</li>
+                    <li><b>Bathrooms:</b> 4.5</li>
+                    <li><b>Square Feet:</b> 4,575</li>
+                    <li><b>Neighborhood:</b> Canton</li>
+                    <li><b>Property Type: Townhome</b></li>
+                    <li><b>Year built:</b> 1893</li>
+                    <li><b>Parking:</b> 3-car garage</li>
+                    <li><b>Lot size:</b> 1,510</li>
+                    <li><b>Pricing/sq. ft.:</b> $328</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h2>Highlights</h2>
+                <ul>
+                    <li>4,500+ square feet in Canton/Brewers Hill with 5 bedrooms and 4.5 bathrooms.</li>
+                    <li>Elevator access and three-car garage with EV hookup.</li>
+                    <li>Three rooftop decks with harbor and downtown views.</li>
+                    <li>Ultra-premium Wolf + Jenn Air appliances and quartzite countertops.</li>
+                    <li>Master suite features heated floors, oversized closet, and third-floor living area.</li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>

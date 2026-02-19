@@ -17,12 +17,14 @@ h1 {
     font-size: 2em;
 }
 
-.coming-soon {
+header em {
     text-transform: uppercase;
     background-color: #690500;
     color: #fcfcfc;
     padding: .5em 1em;
     font-size: .75em;
+    margin: 2em 0;
+    display: inline-block;
 }
 
 a {
@@ -37,16 +39,25 @@ img {
     width: 100%;
 }
 
-main {
-    padding: 1em;
-}
-
 footer {
     padding: 1em;
     color: #fcfcfc;
     background-color: #02111B;
+    text-align: center;
 }
 
 footer a {
     color: #fcfcfc;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+section {
+    border-bottom: 1px solid lightgrey;
+    margin: 2em 0;
 }
