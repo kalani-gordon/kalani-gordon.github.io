@@ -1,0 +1,92 @@
+  body {
+      font-family: "Poppins", sans-serif;
+      background-color: #5D9CE7;
+      color: #fff;
+      font-size: 18px;
+  }
+
+  header {
+      margin: 2em 1em;
+  }
+
+  nav {
+      padding: 1em 0;
+      text-align: right;
+  }
+
+  section {
+      margin: 5em 0;
+  }
+
+  .header-logo {
+      width: 55%;
+  }
+
+  h2,
+  h3 {
+      font-family: "Dongle", sans-serif;
+  }
+
+  h3 {
+      font-size: 2.5em;
+  }
+
+  a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: .75em;
+      padding: 1em 1em 1em 0;
+  }
+
+  a:hover {
+      color: #AD4E9D;
+  }
+
+  main img {
+      border-radius: 5%;
+  }
+
+  .adoptable-pets {
+      background-color: #fff;
+      color: #5D9CE7;
+      padding: 3em 0;
+  }
+
+  .adoptable-pets a {
+      color: #AD4E9D;
+      font-size: 1.2em;
+  }
+
+  h4 {
+      font-size: 1em;
+      color: #E0D68A;
+  }
+
+  .needs img {
+      max-height: 300px;
+      padding: 1em 0;
+  }
+
+  .donate {
+      border-top: 5px solid #E0D68A;
+      padding: 2em 0;
+  }
+
+  .button {
+      background-color: #E0D68A;
+      display: inline;
+      padding: .5em 1em;
+      border-radius: 15% 0;
+  }
+
+  .button a {
+      color: #000;
+  }
+
+  footer {
+      background-color: #fff;
+      color: #5D9CE7;
+      text-align: center;
+      padding: 1em 0;
+  }
